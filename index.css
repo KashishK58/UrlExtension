@@ -61,3 +61,12 @@ li {
 a {
     color: #5f9341;
 }
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+    input, button {
+        width: 100%;
+    }
+}
