@@ -63,10 +63,12 @@ a {
 }
 @media screen and (max-width: 600px) {
     .container {
-        margin: 20px;
         padding: 20px;
     }
-    input, button {
-        width: 100%;
+    .buttons {
+        flex-direction: column;
+    }
+    button {
+        max-width: 100%;
     }
 }
