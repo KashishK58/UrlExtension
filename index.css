@@ -63,7 +63,7 @@ a {
 }
 @media screen and (max-width: 600px) {
     .container {
-        padding: 20px;
+        padding: 60px;
     }
     .buttons {
         flex-direction: column;
